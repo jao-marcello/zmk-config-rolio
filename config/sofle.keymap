@@ -49,8 +49,8 @@
             bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
        &kp UNDER       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5    /*|                                 |*/  &kp N6         &kp N7          &kp N8          &kp N9          &kp N0          &kp DEL
-       ___             &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp N4   &kp N5        &kp N6        &kp N0        &kp MINUS
-       ___             &kp LG(DOT)     &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1        &kp N2        &kp N3        &kp BACKSLASH   ___
+       ___             &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp N4          &kp N5          &kp N6          &kp N0        &kp MINUS
+       ___             &kp LG(DOT)     &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1          &kp N2          &kp N3          &kp BACKSLASH   ___
 /* ╰───────────────┴───────────────┤*/                                 ___             ___             ___                 ___            ___            ___                   //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
@@ -62,9 +62,9 @@
             bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
        ___             &kp N1          &kp N2          &kp N3          &kp N4          &kp N5    /*|                                 |*/    &kp N6         &kp N7          &kp N8          &kp N9          &kp N0          ___ 
-       &CAPSLOCK             &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp LEFT          &kp DOWN          &mt UP     &mt RIGHT   &kp MINUS
-       ___             ___             &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1          &mt COMMA N2    &mt DOT N3      &kp KP_DIVIDE   &kp KP_MULTIPLY
-/* ╰───────────────┴───────────────┤*/                                 &kp LALT             ___      &kp LA(SPACE)                 ___            ___    &kp N0                //├───────────────┴───────────────╯
+       &CAPSLOCK       &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp LEFT          &kp DOWN          &mt UP      &mt RIGHT        &kp MINUS
+       ___             ___             &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1          &mt COMMA N2     &mt DOT N3      &kp KP_DIVIDE   &kp KP_MULTIPLY
+/* ╰───────────────┴───────────────┤*/                                 &kp LALT             ___     &kp LA(SPACE)             ___            ___         &kp N0                                    //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
       };
@@ -75,7 +75,7 @@
             label = "HOTKEY";
             bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬────────────────╮                                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-      &out OUT_TOG     ___     ___      ___     ___      ___ /*|                                 |*/   &kp N6         &kp N7          &kp N8          &kp N9          &kp N0          &soft_off
+      &out OUT_TOG      ___               ___             ___              ___            ___     /*|                                 |*/   &kp N6         &kp N7          &kp N8          &kp N9          &kp N0          &soft_off
       ___              ___             ___             ___             ___             ___        /*├─────────────╮     ╭─────────────┤*/   ___            &kp N4          &kp N5          &kp N6          ___             ___
       ___              &bl BL_TOG      ___   &bl BL_DEC      &bl BL_TOG      &bl BL_INC                                           ___            &kp N1          &kp N2          &kp N3          ___             ___
 /* ╰───────────────┴───────────────┤*/                                    ___              ___         ___                  ___             ___            &kp N0                //├───────────────┴───────────────╯
