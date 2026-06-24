@@ -7,23 +7,12 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/backlight.h>
-
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-#include <dt-bindings/zmk/pointing.h>
-
-// Helpful macros borrowed from AndrewMSHowe
-#define ___ &trans
-
-// Layer numbers for use by the keymap & macros
+#include <dt-bindings/zmk/ext_power.h>
 
 #define DEFAULT 0
 #define NUMBER  1
 #define FN  2
 #define HOTKEY  3
-
-
 
 / {
 
@@ -37,7 +26,7 @@
        &kp GRAVE      &kp Q            &kp W           &kp E           &kp R           &kp T     /*|                                 |*/  &kp Y          &kp U           &kp I           &kp O           &kp P          &mt LC(BSPC) BSPC
        &kp TAB        &kp A            &kp S           &kp D           &kp F           &kp G     /*├─────────────╮     ╭─────────────┤*/  &kp H          &kp J           &kp K           &kp L           &kp SEMI       &kp SQT
        &kp LSHIFT     &kp Z            &kp X           &kp C           &kp V           &kp B                                              &kp N          &kp M           &kp COMMA       &kp DOT         &kp FSLH       &kp RSHFT
-/* ╰───────────────┴───────────────┤*/                                 &mkp RCLK  &mt LCTRL RETURN  &mo 1              &kp BACKSPACE  &kp SPACE  &mkp LCLK     //├───────────────┴───────────────╯
+/* ╰───────────────┴───────────────┤*/                                 &kp LCTRL  &lt 1 RETURN  &kp SPACE              &kp LSHIFT  &lt 2 BSPC  &kp RGUI     //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
         };
