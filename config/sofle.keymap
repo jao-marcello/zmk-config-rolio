@@ -37,7 +37,7 @@
        &kp ESC        &kp Q            &kp W           &kp E           &kp R           &kp T     /*|                                 |*/  &kp Y          &kp U           &kp I           &kp O           &kp P          &mt LC(BSPC) BSPC
        &kp TAB        &kp A            &kp S           &kp D           &kp F           &kp G     /*├─────────────╮     ╭─────────────┤*/  &kp H          &kp J           &kp K           &kp L           &kp SEMI       &kp SQT
        &kp LSHIFT     &kp Z            &kp X           &kp C           &kp V           &kp B                                              &kp N          &kp M           &kp COMMA       &kp DOT         &kp FSLH       &kp LALT
-/* ╰───────────────┴───────────────┤*/                                 &kp LCTRL       &lt 1  RETURN  &kp SPACE              &kp LSHIFT  &lt 2 BACKSPACE   &kp LGUI     //├───────────────┴───────────────╯
+/* ╰───────────────┴───────────────┤*/                                 &kp LCTRL       &lt 1  RETURN  &kp SPACE              &kp LSHIFT   &lt 2 BSPC     &kp LGUI     //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
         };
@@ -48,10 +48,10 @@
             label = "NUMBER";
             bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-       &kp UNDER       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5    /*|                                 |*/  &kp PSCRN      &kp N7          &kp N8          &kp N9          &kp N0          &kp EQUAL
-       ___             &kp EXCL        &kp AT          &mkp LCLK       &mkp RCLK       &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp PLUS       &kp N4          &kp N5          &kp N6          &kp N0          &kp MINUS
-       ___             &kp LG(DOT)     &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp EQUAL      &kp N1          &kp N2          &kp N3          &kp BACKSLASH   &kp PLUS
-/* ╰───────────────┴───────────────┤*/                                 ___             ___             ___                 ___            ___            ___                   //├───────────────┴───────────────╯
+       &kp UNDER       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5    /*|                                 |*/  &kp FSLH       &kp N7          &kp N8          &kp N9          &kp N0          &kp EQUAL
+       ___             &kp EXCL        &kp AT          &mkp RCLK       &mkp LCLK       &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp STAR       &kp N4          &kp N5          &kp N6          &kp N0          &kp MINUS
+       &kp PSCRN       &kp LG(DOT)     &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp BSLh      &kp N1          &kp N2          &kp N3          &kp BACKSLASH   &kp PLUS
+/* ╰───────────────┴───────────────┤*/                                 ___             ___             ___                 &kp LSHIFT     &kp DEL            ___                   //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
         };
@@ -64,7 +64,7 @@
        &kp F11         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5    /*|                                 |*/  &kp F6         &kp F7          &kp F8          &kp F9          &kp F10          &kp F12 
        &kp CAPSLOCK    &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT        &kp MINUS
        ___             ___             &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1          &mt COMMA N2    &mt DOT N3      &kp KP_DIVIDE    &kp KP_MULTIPLY
-/* ╰───────────────┴───────────────┤*/                                 &kp LALT             ___     &kp LA(SPACE)             ___            ___         &kp N0                                    //├───────────────┴───────────────╯
+/* ╰───────────────┴───────────────┤*/                                 &kp LALT        &kp LGUI      &kp LA(SPACE)            ___            ___         &kp N0                                    //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
       };
