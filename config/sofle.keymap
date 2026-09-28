@@ -57,7 +57,7 @@
             label = "NUMBER";
             bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-       &kp UNDER       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5    /*|                                 |*/  &kp FSLH       &kp N7          &kp N8          &kp N9          &kp N0          &kp EQUAL
+       &kp UNDER       &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &kp N4          &kp N5    /*|                                 |*/  &kp FSLH       &kp N7          &kp N8          &kp N9          &kp N0          &kp EQUAL
        ___             &kp EXCL        &kp AT          &mkp RCLK       &mkp LCLK       &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp STAR       &kp N4          &kp N5          &kp N6          &kp N0          &kp MINUS
        &kp PSCRN       &kp LG(DOT)     &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp BSLH       &kp N1          &kp N2          &kp N3          &kp BACKSLASH   &kp PLUS
 /* ╰───────────────┴───────────────┤*/                                 ___             ___             ___                 &kp LSHIFT     &kp DEL        &kp EQUAL                  //├───────────────┴───────────────╯
@@ -71,8 +71,8 @@
             bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮                                 ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
        &kp F11         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5    /*|                                 |*/  &kp F6         &kp F7          &kp F8          &kp F9          &kp F10          &kp F12 
-       &kp CAPSLOCK    &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT        &kp MINUS
-       ___             ___             &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1          &mt COMMA N2    &mt DOT N3      &kp KP_DIVIDE    &kp KP_MULTIPLY
+       &kp CAPSLOCK    &kp EXCL        &kp AT          &kp HASH        &kp DLLR        &kp PRCNT /*├─────────────╮     ╭─────────────┤*/  &kp CARET      &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT        &bt BT_CLR
+       ___             ___             &kp LEFT_BRACE  &kp RIGHT_BRACE &kp PIPE        &kp EQUAL                                          &kp PRCNT      &kp N1          &mt COMMA N2    &mt DOT N3      &kp KP_DIVIDE    &bt BT_CLR_ALL
 /* ╰───────────────┴───────────────┤*/                                 &kp LGUI        &kp LALT      &kp LA(SPACE)            ___            ___         &kp N0                                    //├───────────────┴───────────────╯
 //                                 ╰───────────────┴───────────────┴───────────────┴───────────────┴─────────────╯     ╰─────────────┴───────────────┴───────────────┴───────────────┴───────────────╯
             >;
